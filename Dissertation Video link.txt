@@ -1,0 +1,10 @@
+Dissertation video: https://youtu.be/-gASqTwwEg8
+
+This is an old demo version video. Since this video new content has been added 
+a forced object scaling system has been added however it has issues with it 
+also the controls have been inproved and the VR as a whole is improved.
+
+The reason for not being able to upload a new video is hardware issues as 
+I'm having issues with my computer that's not working and my laptop cant run 
+the project as my VR doesn't work with my laptop, so until my computer is reparied I cant 
+complete the new video.
