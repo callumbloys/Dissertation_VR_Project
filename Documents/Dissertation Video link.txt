@@ -1,5 +1,7 @@
 Dissertation video: https://youtu.be/-gASqTwwEg8
 
+GitHub link: https://github.com/callumbloys/Dissertation_VR_Project
+
 This is an old demo version video. Since this video new content has been added 
 a forced object scaling system has been added however it has issues with it 
 also the controls have been inproved and the VR as a whole is improved.
