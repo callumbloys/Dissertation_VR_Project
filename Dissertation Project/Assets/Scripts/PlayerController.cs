@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
         _collider = GetComponent<CapsuleCollider>();
         _body = GetComponent<Rigidbody>();
         jumpActionReference.action.performed += OnJump;
-        jumpActionReference.asset.Enable();
     }
 
     void Update()
@@ -37,11 +36,17 @@ public class PlayerController : MonoBehaviour
         //_collider.center = new Vector3(center.x, _collider.center.y, center.z);
         _collider.center = new Vector3(center.x, _xrRig.cameraInRigSpaceHeight / 2, center.z);
         _collider.height = _xrRig.cameraInRigSpaceHeight;
+
+        if (IsGrounded)
+        {
+        }
     }
 
     private void OnJump(InputAction.CallbackContext obj)
     {
         if (!IsGrounded) return;
+        Debug.Log("Jumping");
+        //jumpActionReference.asset.Disable();
         _body.AddForce(Vector3.up * jumpForce);
     }
 }
